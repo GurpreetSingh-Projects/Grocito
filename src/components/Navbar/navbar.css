@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Roboto";
+  border: none;
+  outline: none;
+}
+.navbarList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbarList li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 40px;
+  border: 1px solid rgb(182, 182, 182);
+  margin: 0px 10px 0px 10px;
+}
+
+.navbarList li:hover {
+  background-color: rgba(233, 233, 233, 0.719);
+}
