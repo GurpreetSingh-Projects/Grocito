@@ -8,14 +8,14 @@
   outline: none;
 }
 .headerWrapper {
-  height: 9vh;
+  height: 11vh;
   width: 100%;
   position: sticky;
   z-index: 100;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: bisque;
+  background-color: aqua;
 }
 .headerLeft {
   display: flex;
@@ -33,6 +33,7 @@
   display: flex;
   flex: 6;
   width: 60%;
+  margin-left: 11%;
 }
 .searchbar {
   background-color: rgba(0, 0, 0, 0.062);
@@ -40,6 +41,8 @@
   width: 100%;
   display: flex;
   align-items: center;
+  border-radius: 999px;
+  box-shadow: 4px 3px 21px 3px rgba(179, 179, 179, 1);
 }
 
 .searchIcon {
@@ -49,11 +52,64 @@
 .searchInput {
   width: 100%;
   height: 100%;
-  font-size: 16px;
+  padding-left: 10px;
+  font-size: 14px;
 }
+.selectLocation {
+  font-size: 14px;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0px 0px 10px;
+  border-radius: 0px 999px 999px 0px;
+  padding-top: 10px;
+  border-left: 1px solid rgba(128, 128, 128, 0.253);
+}
+option {
+  padding: 20px;
+}
+
 .headerRight {
   display: flex;
   flex: 3;
   height: 20px;
   width: 60%;
+  align-items: center;
+  margin-left: 10%;
+
+  justify-content: end;
+  margin-right: 20px;
+}
+.cart {
+  position: relative;
+}
+.cartIcon {
+  display: flex;
+  height: 30px;
+  width: 30px;
+}
+.cartItems {
+  position: absolute;
+  display: flex;
+  height: 23px;
+  width: 23px;
+  border-radius: 9999px;
+  background-color: black;
+  font-size: 14px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  top: -5px;
+  left: 15px;
+}
+.login {
+  margin-left: 10%;
+  height: 7vh;
+  width: 10vw;
+  align-self: center;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border-radius: 9999px;
 }
