@@ -13,6 +13,7 @@
   width: 100%;
   transition: box-shadow 0.5s, height 0.5s, width 0.5s;
   cursor: pointer;
+  position: relative;
 }
 .container:hover {
   box-shadow: 0px 0px 41px -14px rgba(77, 77, 77, 1);
@@ -65,6 +66,18 @@
   font-size: 15px;
   font-weight: 500;
   cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+.sharedBottom button:active {
+  background-color: green;
+  color: white;
+}
+.discount {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 @media only screen and (max-width: 767px) {
   .container {
@@ -78,6 +91,10 @@
     box-shadow: 0px 0px 41px -14px rgba(77, 77, 77, 1);
     height: 110%;
     width: 100%;
+  }
+  .discount {
+    height: 40px;
+    width: 40px;
   }
 
   .sharedTop {
