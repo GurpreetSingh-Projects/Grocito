@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Roboto";
+  border: none;
+  outline: none;
+}
+
+.container {
+  background-color: white;
+  border-radius: 20px;
+  height: 100%;
+  width: 20%;
+}
+
+.sharedTop {
+  height: 50vh;
+  display: flex;
+}
+.itemImage {
+  display: flex;
+  height: 70%;
+  object-fit: cover;
+  width: 100%;
+}
