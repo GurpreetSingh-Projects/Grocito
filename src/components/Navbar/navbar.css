@@ -12,14 +12,14 @@
   position: fixed;
   z-index: 100;
   width: 100%;
-  margin-top: 85px;
+  margin-top: 75px;
   background-color: white;
   align-items: center;
   justify-content: center;
 }
 .navbarList {
   display: flex;
-  margin: 0% auto 0% auto;
+  padding: 10% auto 0% auto;
 }
 .navbarList li {
   display: flex;
@@ -47,7 +47,6 @@
   }
   .navbarList li {
     font-size: 12px;
-
     height: 25px;
     width: 110px;
     align-items: center;
