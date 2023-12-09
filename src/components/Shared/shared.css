@@ -68,7 +68,7 @@
   cursor: pointer;
   transition: background-color 0.5s, color 0.5s;
 }
-.sharedBottom button:active {
+.sharedBottom button:hover {
   background-color: green;
   color: white;
 }
