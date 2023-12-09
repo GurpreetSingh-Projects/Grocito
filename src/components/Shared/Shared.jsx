@@ -11,8 +11,15 @@ export default function Shared() {
               alt=""
             />
           </div>
-          <div className="sharedCenter"></div>
-          <div className="sharedBottom"></div>
+          <div className="sharedCenter">
+            <div className="sharedTitle">Aashirvaad M.P. Chakki Atta</div>
+            <div className="sharedText">10kg</div>
+          </div>
+          <div className="sharedBottom">
+            <div className="sharedSp">₹476</div>
+            <div className="sharedMp">₹550</div>
+            <button>ADD</button>
+          </div>
         </div>
       </div>
     </div>
