@@ -17,16 +17,36 @@ export default function Header() {
               placeholder='Search for "Atta"'
             />
             <select className="selectLocation">
-              <option value="Default">Select Location</option>
-              <option value="Delhi">Delhi</option>
-              <option value="Punjab">Punjab</option>
-              <option value="Andhra Pradesh">Andhra Pradesh</option>
-              <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-              <option value="Assam">Assam</option>
-              <option value="Pune">Pune</option>
-              <option value="Uttar Pradesh">Uttar Pradesh</option>
-              <option value="Uttarakhand">Uttarakhand</option>
-              <option value="Mumbai">Mumbai</option>
+              <option className="options" value="Default">
+                <div>Select Location</div>
+              </option>
+              <option value="Delhi">
+                <div>Delhi</div>
+              </option>
+              <option value="Punjab">
+                <div>Punjab</div>
+              </option>
+              <option value="Andhra Pradesh">
+                <div>Andhra Pradesh</div>
+              </option>
+              <option value="Arunachal Pradesh">
+                <div>Arunachal Pradesh</div>
+              </option>
+              <option value="Assam">
+                <div>Assam</div>
+              </option>
+              <option value="Pune">
+                <div>Pune</div>
+              </option>
+              <option value="Uttar Pradesh">
+                <div>Uttar Pradesh</div>
+              </option>
+              <option value="Uttarakhand">
+                <div>Uttarakhand</div>
+              </option>
+              <option value="Mumbai">
+                <div>Mumbai</div>
+              </option>
             </select>
           </div>
         </div>
