@@ -4,9 +4,7 @@ import { useState } from "react";
 export default function Shared(props) {
   var temp = 0;
   const [add, setAdd] = useState("Add");
-  const click = () => {
-    temp ? setAdd("Add") : (setAdd("Added"), (temp = 1));
-  };
+
   return (
     <div className="shared">
       <div className="sharedWrapper">
