@@ -1,7 +1,12 @@
 import "./shared.css";
 import { useState } from "react";
+// This component receives props from Feed and then displays them according to data provided accordingly
 export default function Shared(props) {
+  var temp = 0;
   const [add, setAdd] = useState("Add");
+  const click = () => {
+    temp ? setAdd("Add") : (setAdd("Added"), (temp = 1));
+  };
 
   return (
     <div className="shared">
@@ -22,13 +27,7 @@ export default function Shared(props) {
           <div className="sharedBottom">
             <div className="sharedSp">{props.sp}</div>
             <div className="sharedMp">{props.mrp}</div>
-            <button
-              onClick={() => {
-                setAdd("Added");
-              }}
-            >
-              {add}
-            </button>
+            <button onClick={click}>{add}</button>
           </div>
         </div>
       </div>

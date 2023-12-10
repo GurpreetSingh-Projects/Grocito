@@ -1,5 +1,5 @@
 import "./navbar.css";
-
+// This component shows the buttons which are present at top of the page, and are displayed under the Header section
 export default function Navbar() {
   return (
     <div className="navbar">

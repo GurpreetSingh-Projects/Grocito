@@ -1,5 +1,6 @@
 import Shared from "../Shared/Shared";
 import "./feed.css";
+// Handles the feed section including background color, and the data to be sent to render Shared component
 export default function Feed() {
   return (
     <div className="shared">

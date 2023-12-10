@@ -1,6 +1,7 @@
 import search from "../../assets/search.png";
 import cart from "../../assets/cart.png";
 import "./header.css";
+// This component displays the header, is fixed by nature and displays, logo, searchbar, cart and login buttons
 export default function Header() {
   return (
     <div className="header">
