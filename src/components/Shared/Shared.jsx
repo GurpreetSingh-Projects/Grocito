@@ -7,7 +7,6 @@ export default function Shared(props) {
   const click = () => {
     temp ? setAdd("Add") : (setAdd("Added"), (temp = 1));
   };
-
   return (
     <div className="shared">
       <div className="sharedWrapper">
@@ -27,7 +26,7 @@ export default function Shared(props) {
           <div className="sharedBottom">
             <div className="sharedSp">{props.sp}</div>
             <div className="sharedMp">{props.mrp}</div>
-            <button onClick={click}>{add}</button>
+            <button onChange={setAdd("Added")}>{add} </button>
           </div>
         </div>
       </div>

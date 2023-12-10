@@ -88,10 +88,16 @@
     transition: box-shadow 0.5s, height 0.5s, width 0.5s;
     cursor: pointer;
   }
+
   .container:hover {
-    box-shadow: 0px 0px 41px -14px rgba(77, 77, 77, 1);
+    box-shadow: 0px 0px 0px 0px white;
+    outline: white;
     height: 110%;
     width: 100%;
+  }
+  .container:active {
+    outline: none;
+    border: none;
   }
   .discount {
     height: 40px;
